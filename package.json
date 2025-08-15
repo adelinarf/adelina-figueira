@@ -1,7 +1,7 @@
 {
   "name": "next-app-template",
   "version": "0.0.1",
-  "homepage":"https://adelinarf.github.io/adelina-figueira/",
+  "homepage":"https://adelinarf.github.io/adelina-figueira",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
