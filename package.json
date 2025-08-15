@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint --fix",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "static": "next build && next export && touch ./build/.nojekyll && echo 'https://adelinarf.github.io/adelina-figueira' > ./out/CNAME",
+    "deploy": "gh-pages -d build --nojekyll"
   },
   "dependencies": {
     "@heroui/button": "2.2.24",

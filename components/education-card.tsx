@@ -16,7 +16,7 @@ export const EducationCard = () => {
         <Image
           alt="Card background"
           className="object-cover rounded-xl"
-          src="/usb.jpg"
+          src="./usb.jpg"
           width={270}
         />
       </CardBody>

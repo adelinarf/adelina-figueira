@@ -6,7 +6,7 @@ export const CustomAvatar = () => {
     <div className="flex gap-4 items-center">
       <Avatar
       size="md"
-        src="/photos/photo.jpg"
+        src="./photos/photo.jpg"
       />
     </div>
   );

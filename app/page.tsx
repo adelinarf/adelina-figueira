@@ -30,7 +30,7 @@ const projects = [
   "description":"Developed a functional Pacman game using Assembly language, demonstrating a deep understanding of low-level programming, memory management, and system architecture", 
   "language":"Assembly",
   "button_name":"Go to GitHub repository",
-  "image":"/assembly.jpg",
+  "image":"./assembly.jpg",
   "link":"https://github.com/adelinarf/PacmanAssembly"
 },
 {
@@ -38,7 +38,7 @@ const projects = [
   "description":"Developed a language interpreter using tsPEG", 
   "language":"Typescript",
   "button_name":"Go to GitHub repository",
-  "image":"/typescript.png",
+  "image":"./typescript.png",
   "link":"https://github.com/adelinarf/St-khos"
 },
 {
@@ -46,7 +46,7 @@ const projects = [
   "description":"Developed a console based version of the Wordle game on Haskell.", 
   "language":"Haskell",
   "button_name":"Go to GitHub repository",
-  "image":"/haskell.png",
+  "image":"./haskell.png",
   "link":"https://github.com/adelinarf/Wordle"
 },
 {
@@ -54,7 +54,7 @@ const projects = [
   "description":"Developed a simple game, handling the AI of the game, including the movement, world representation, decision making, tactics and interface", 
   "language":"Developed in Godot using GDScript",
   "button_name":"Go to GitHub repository",
-  "image":"/game.png",
+  "image":"./game.png",
   "link":"https://github.com/adelinarf/Proyecto1-CI6450"
 },
 {
@@ -62,26 +62,26 @@ const projects = [
   "description":"Developed a web app that allows stores to prevent food waste by looking for customers willing to buy the leftover food at the end of the day", 
   "language":"Javascript, ReactJS and Firebase",
   "button_name":"See it LIVE",
-  "image":"/leftovers.png",
+  "image":"./leftovers.png",
   "link":"https://leftovers-6215b.web.app/"
 }
   ]
 
 const technologies = [
-  {"name":"Python","url":"/python.png"},
-  {"name":"JavaScript","url":"/javascript.png"},
-  {"name":"HTML","url":"/html.png"},
-  {"name":"CSS","url":"/css.png"},
-  {"name":"C#","url":"/csharp.png"},
-  {"name":"Haskell","url":"/haskell.png"},
-  {"name":"C","url":"/c.png"},
-  {"name":"Typescript","url":"/typescript.png"},
-  {"name":"Kotlin","url":"/kotlin.png"},
-  {"name":"Django","url":"/django.jpg"},
-  {"name":"Flask","url":"/flask.png"},
-  {"name":"Angular","url":"/angular.png"},
-  {"name":"React JS and Native","url":"/react.png"},
-  {"name":"Git","url":"/git.png"}
+  {"name":"Python","url":"./python.png"},
+  {"name":"JavaScript","url":"./javascript.png"},
+  {"name":"HTML","url":"./html.png"},
+  {"name":"CSS","url":"./css.png"},
+  {"name":"C#","url":"./csharp.png"},
+  {"name":"Haskell","url":"./haskell.png"},
+  {"name":"C","url":"./c.png"},
+  {"name":"Typescript","url":"./typescript.png"},
+  {"name":"Kotlin","url":"./kotlin.png"},
+  {"name":"Django","url":"./django.jpg"},
+  {"name":"Flask","url":"./flask.png"},
+  {"name":"Angular","url":"./angular.png"},
+  {"name":"React JS and Native","url":"./react.png"},
+  {"name":"Git","url":"./git.png"}
 ]
 
 
@@ -101,9 +101,9 @@ export default function Home() {
           <ImageComponent/>
         </div>
       </div>
-      <div id="education" className="inline-block max-w-9/10 text-center justify-center mt-12">
+      <div id="education" className="inline-block text-center justify-center mt-12">
         <span className={title({ color: "violet" })}>Education&nbsp;</span>
-        <div className="gap-2 grid grid-cols-2 sm:grid-cols-1 mt-12">
+        <div className="gap-2 grid grid-cols-1 sm:grid-cols-1 mt-12">
         <EducationCard/>
         </div>
       </div>
@@ -118,7 +118,7 @@ export default function Home() {
 
       <div id="experience" className="inline-block max-w-9/10 text-center justify-center mt-12">
         <span className={title({ color: "violet" })}>Professional Experience&nbsp;</span>
-        <div className="gap-2 grid grid-cols-2 sm:grid-cols-1 mt-12 px-4">
+        <div className="gap-2 grid grid-cols-1 sm:grid-cols-1 mt-12 px-4">
         {work.map((item : any,i : any) => (
           <WorkCard key={"work_"+i} role={item.role} time={item.time} tasks={item.tasks}/>            
           ))}

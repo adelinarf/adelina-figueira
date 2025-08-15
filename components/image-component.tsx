@@ -7,7 +7,7 @@ export const ImageComponent = () => {
       
       alt="profileimage"
       className="mt-4"
-      src="/photos/photo.jpg"
+      src="./photos/photo.jpg"
       width={240}
     />
   );
