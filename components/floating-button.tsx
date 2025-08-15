@@ -99,7 +99,7 @@ export const FloatingButton = () => {
       <NextLink
         href="/#technologies"
       >
-      <Button className="fixed bottom-4 right-4 p-1 rounded-full shadow-lg" isIconOnly aria-label="Like" color="danger"
+      <Button className="fixed bottom-4 right-4 p-1 rounded-full shadow-lg z-1000" isIconOnly aria-label="Like" color="danger"
       onMouseOver={(open) => setIsOpen1(true)} onMouseOut={(open) => setIsOpen1(false)} onClick={(e) => setIsOpen1(false)}>
          <TechnologiesIcon />
       </Button>
@@ -112,7 +112,7 @@ export const FloatingButton = () => {
       <NextLink
         href="/#projects"
       >
-      <Button className="fixed bottom-18 right-4 p-1 rounded-full shadow-lg" isIconOnly aria-label="Like" color="danger"
+      <Button className="fixed bottom-18 right-4 p-1 rounded-full shadow-lg z-1000" isIconOnly aria-label="Like" color="danger"
       onMouseOver={(open) => setIsOpen2(true)} onMouseOut={(open) => setIsOpen2(false)} onClick={(e) => setIsOpen2(false)}>
          <ProjectsIcon />
       </Button>
@@ -124,7 +124,7 @@ export const FloatingButton = () => {
       <NextLink
         href="/#experience"
       >
-      <Button className="fixed bottom-32 right-4 p-1 rounded-full shadow-lg" isIconOnly aria-label="Like" color="danger"
+      <Button className="fixed bottom-32 right-4 p-1 rounded-full shadow-lg z-1000" isIconOnly aria-label="Like" color="danger"
       onMouseOver={(open) => setIsOpen3(true)} onMouseOut={(open) => setIsOpen3(false)} onClick={(e) => setIsOpen3(false)}>
          <ExperienceIcon />
       </Button>
@@ -136,7 +136,7 @@ export const FloatingButton = () => {
       <NextLink
         href="/#education"
       >
-      <Button className="fixed bottom-46 right-4 p-1 rounded-full shadow-lg" isIconOnly aria-label="Like" color="danger"
+      <Button className="fixed bottom-46 right-4 p-1 rounded-full shadow-lg z-1000" isIconOnly aria-label="Like" color="danger"
       onMouseOver={(open) => setIsOpen4(true)} onMouseOut={(open) => setIsOpen4(false)} onClick={(e) => setIsOpen4(false)}>
          <EducationIcon />
       </Button>
